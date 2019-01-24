@@ -15,7 +15,7 @@ version: "3.6"
 
 services:
   app:
-    build: .
+    image: proemergotech/loadbalance-test
     ports:
       - 30001:12345
     environment:
