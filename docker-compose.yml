@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  app:
+    build: .
+    ports:
+      - 30001:12345
+    environment:
+      - PORT=12345
